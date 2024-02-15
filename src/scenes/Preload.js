@@ -7,7 +7,7 @@ class Preload extends Phaser.Scene {
         this.load.image('background', 'assets/background.png')
         this.load.image('treeTop', 'assets/treeTop.png')
         this.load.image('treeBot', 'assets/treeBot.png')
-        this.load.image('slug' , 'assets/Slug.png') 
+        this.load.image('slug' , 'assets/slug.png') 
         this.load.audio('ericCartman', 'assets/ericCartman.mp3')
         this.load.audio('hitground', 'assets/hitground.mp3')
         this.load.audio('transition', 'assets/transition.mp3')
