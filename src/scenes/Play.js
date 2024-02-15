@@ -72,6 +72,7 @@ class Play extends Phaser.Scene {
             if (!tree.scored && tree.x < this.slug.x - this.slug.width / 2) {
                 tree.scored = true
                 this.incrementScore(0.5)
+                this.dingSound.play()
             }
         })
         //if slug hit bottom game over scene
