@@ -40,7 +40,7 @@ class Credits extends Phaser.Scene {
         }).setOrigin(0.5)
 
         // sfx credits
-        this.add.text(this.scale.width / 2, 300, 'SFX: Eric Cartman - Poker Face', {
+        this.add.text(this.scale.width / 2, 300, 'SFX: Eric Cartman - Wrecking Ball', {
             fontFamily: 'Fantasy',
             fontSize: '24px',
             fill: '#fff'
